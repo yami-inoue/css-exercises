@@ -1,0 +1,19 @@
+.classP {
+    background-color: #dbacca;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.classPsize {
+    font-size: 24px;
+}
+
+#block-one {
+    color: #007EFF;
+    font-size: 36px;
+}
+
+#block-two {
+    background-color: #acdbbd;
+    font-size: 24px;
+    font-weight: bold;
+}
