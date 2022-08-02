@@ -1,0 +1,25 @@
+/* using CLASS only descendant combinator
+    below
+*/
+.container .text {
+    background-color: #FEFF45;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* using a combination of TYPE and CLASS
+    descendant combinator below
+*/
+
+div .text {
+    background-color: #FEFF45;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* BOTH STYLE BLOCKS ABOVE USES THE SAME 
+    RULES, DIFFERENCE ONLY ARE ONLY ON THE
+    SELECTORS TO GIVE A BROADER OPTION
+*/
