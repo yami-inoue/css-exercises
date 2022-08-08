@@ -12,6 +12,16 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /*flexbox enabler*/
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 16px;
+}
+
+.header >:nth-child(3) {
+  margin-left: auto;
 }
 
 .profile-image {
@@ -45,4 +55,9 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: inherit;
 }
+
